@@ -61,7 +61,7 @@ jobs:
         git config --global user.email bradly093@gmail.com
         git config --global user.name bradly0cjw
         git add .
-        git commit -m "update new refresh_token" -a
+        git commit -m "FUCK" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
