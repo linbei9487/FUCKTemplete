@@ -26,9 +26,9 @@ jobs:
       with:
         ref: FUCK
     - name: Set up Python #安装python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@master
       with:
-        python-version: 3.7.15
+        python-version: 3.13
     - name: Install requests #安装requests
       run: |
         pip install requests
